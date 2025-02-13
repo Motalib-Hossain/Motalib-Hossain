@@ -1,5 +1,6 @@
 ## Table element
 
+## Table header item attribute
 ```
 {
     field: 'task_status',
@@ -8,6 +9,26 @@
     style: { width: '9%' },
     className: 'justify-center align-middle text-center',
 },
+```
+## Table header value
+```
+ "list_config": [
+    {
+        "list_task_subject": {
+            "field": "task_subject", //The field value will be the key name reflecting the value I want to show.
+            "label": "Task Subject",
+            "type": "0"
+    },
+]
+```
+## List item checkbox form submit with name field
+```
+"list_fieldset": {
+    "list_task_subject": {
+        "label": "Title",
+        "type": "1"
+    },
+}
 ```
 ## Form element
 
