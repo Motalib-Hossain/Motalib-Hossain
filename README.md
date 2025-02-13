@@ -1,3 +1,14 @@
+## Table element
+
+```
+{
+    field: 'task_status',
+    header: 'Status',
+    sortable: 'sortable',
+    style: { width: '9%' },
+    className: 'justify-center align-middle text-center',
+},
+```
 ## Form element
 
 1. **Section**
